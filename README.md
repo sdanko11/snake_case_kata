@@ -2,14 +2,10 @@ Complete the function/method so that it takes CamelCase string and returns the s
 
 Examples:
 
-# returns test_controller
-to_underscore('TestController')
+to_underscore('TestController') => returns test_controller
 
-# returns movies_and_books
-to_underscore('MoviesAndBooks')
+to_underscore('MoviesAndBooks') => returns movies_and_books
 
-# returns app7_test
-to_underscore('App7Test')
+to_underscore('App7Test') => returns app7_test
 
-# returns "1"
-to_underscore(1)
+to_underscore(1) => returns app7_test
